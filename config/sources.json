@@ -1,0 +1,50 @@
+{
+    "categories": {
+        "AI 与黑客前沿": [
+            {
+                "name": "HackerNews",
+                "url": "https://hnrss.org/frontpage",
+                "desc": "全球黑客与创业者聚集地，涵盖硬核技术探讨与前瞻黑科技。"
+            },
+            {
+                "name": "Arxiv(AI)",
+                "url": "http://export.arxiv.org/rss/cs.AI",
+                "desc": "康奈尔大学维护的顶尖学术推演预印本平台，每日放送全球最新 AI 研究论文。"
+            },
+            {
+                "name": "Karpathy推特",
+                "url": "https://rsshub.app/twitter/user/karpathy",
+                "desc": "[需RSSHub代理] 前 OpenAI 及 Tesla AI 总监的硬核观点，高含金量。"
+            }
+        ],
+        "国内极客与开发": [
+            {
+                "name": "V2EX",
+                "url": "https://www.v2ex.com/index.xml",
+                "desc": "国内优质极客与程序员社区，讨论最新工具、生活与职场见解。"
+            },
+            {
+                "name": "掘金后端热榜",
+                "url": "https://rsshub.app/juejin/category/backend/python",
+                "desc": "[需RSSHub] 国内稀土掘金技术社区的后端生态每日最热技术文章。"
+            },
+            {
+                "name": "GitHub(Python)",
+                "url": "https://rsshub.app/github/trending/daily/python",
+                "desc": "通过 RSSHub 提供的每日 Github Python 开源项目趋势榜。"
+            }
+        ],
+        "泛科技与业余生活": [
+            {
+                "name": "少数派",
+                "url": "https://sspai.com/feed",
+                "desc": "高品质数字生活指南，偏向于评测、折腾和数字工具挖掘。"
+            },
+            {
+                "name": "机核网",
+                "url": "https://www.gcores.com/rss",
+                "desc": "兼顾前沿游戏与前卫数字文化的探讨分享平台。"
+            }
+        ]
+    }
+}

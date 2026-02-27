@@ -1,0 +1,24 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Output tracking
+output/
+!output/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+
+# Browser agent recordings and temp artifacts if any
+.system_generated/
+*.webp
+*.png
+*.jpg

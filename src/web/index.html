@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赛博内参 - 专属 Web 冲浪面板</title>
+    <!-- 引入 Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 左侧导航栏 -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i data-lucide="compass" class="logo-icon"></i>
+                <h1 class="logo-text">Cyber Surfer</h1>
+            </div>
+            <nav class="nav-menu" id="nav-wrapper">
+                <!-- 由 JS 动态渲染的分类 Tab -->
+                <div class="nav-loading">
+                    <div class="skeleton skeleton-pulse"></div>
+                    <div class="skeleton skeleton-pulse" style="width: 80%"></div>
+                    <div class="skeleton skeleton-pulse" style="width: 90%"></div>
+                </div>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="theme-toggle" class="icon-btn" title="切换暗色/亮色">
+                    <i data-lucide="sun"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- 右侧主内容区 -->
+        <main class="main-content">
+            <header class="content-header">
+                <h2 id="current-category-title" class="page-title">请选择一个资讯频道</h2>
+                <div class="header-actions">
+                    <span id="update-time" class="time-stamp">就绪</span>
+                    <button id="refresh-btn" class="primary-btn" disabled>
+                        <i data-lucide="refresh-cw"></i>
+                        <span>抓取最新</span>
+                    </button>
+                </div>
+            </header>
+
+            <div class="scroll-area" id="news-container">
+                <!-- 预设全屏幕欢迎态 -->
+                <div class="welcome-state" id="welcome-message">
+                    <div class="welcome-icon">🌊</div>
+                    <h3>欢迎来到赛博冲浪面板</h3>
+                    <p>在左侧选择你感兴趣的信息源，AI 将实时为您拉取提炼最新要闻。</p>
+                </div>
+
+                <!-- 预设骨架屏 -->
+                <div class="news-loading hidden" id="loading-state">
+                    <div class="card-skeleton">
+                        <div class="skeleton-title"></div>
+                        <div class="skeleton-text"></div>
+                        <div class="skeleton-text short"></div>
+                    </div>
+                     <div class="card-skeleton">
+                        <div class="skeleton-title"></div>
+                        <div class="skeleton-text"></div>
+                        <div class="skeleton-text short"></div>
+                    </div>
+                </div>
+
+                <!-- 真实资讯列表容器 -->
+                <div class="news-list" id="real-news-list"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
