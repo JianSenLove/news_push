@@ -9,13 +9,13 @@
 ## 💡 待开发功能点 (To Do)
 这里列出了目前规划中或按需可选的功能点。如果你想参与开发，请参考 `docs/features/_template.md` 并按照 `CONTRIBUTING.md` 中的规范进行。
 
-- [ ] 主动刷新增强体验 (详情见: `docs/features/auto_refresh_experience.md` - 待创建)
-- [ ] 历史抓取信息保留与合并 (详情见: `docs/features/history_data_retention.md` - 待创建)
-- [ ] 多平台推送接入 (详情见: `docs/features/multi_platform_push.md` - 待创建)
-- [ ] 多模态理解支持 (详情见: `docs/features/multimodal_understanding.md` - 待创建)
-- [ ] 历史数据大屏展示 (详情见: `docs/features/history_data_dashboard.md` - 待创建)
-- [ ] 基于向量数据库的检索 (详情见: `docs/features/vector_db_search.md` - 待创建)
-- [ ] 动态源管理增强 (详情见: `docs/features/dynamic_source_management.md` - 待创建)
+- [ ] 主动刷新增强体验 (详情见: `docs/features/auto_refresh_experience/`)
+- [ ] 历史抓取信息保留与合并 (详情见: `docs/features/history_data_retention/` - 待创建)
+- [ ] 多平台推送接入 (详情见: `docs/features/multi_platform_push/`)
+- [ ] 多模态理解支持 (详情见: `docs/features/multimodal_understanding/` - 待创建)
+- [ ] 历史数据大屏展示 (详情见: `docs/features/history_data_dashboard/` - 待创建)
+- [ ] 基于向量数据库的检索 (详情见: `docs/features/vector_db_search/` - 待创建)
+- [ ] 动态源管理增强 (详情见: `docs/features/dynamic_source_management/` - 待创建)
 
 ## 🚧 正在进行中的功能 (In Progress)
 - *(暂无，欢迎认领并在本处更新状态)*
@@ -24,4 +24,4 @@
 - *(暂无)*
 
 ---
-*注：任何新增的功能点建议或优化计划，在实际开发前请务必先基于模板在 `docs/features/` 新建详情文档，然后在此文档中登记补充。*
+*注：任何新增的功能点建议或优化计划，在实际开发前请务必先复制 `docs/features/_template/` 建立专属文件夹，然后在此文档中登记补充。*
