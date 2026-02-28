@@ -1,6 +1,6 @@
 // app.js - 前端核心控制逻辑
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = window.location.origin;
 
 // DOM 元素查询
 const els = {
